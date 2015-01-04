@@ -1,0 +1,55 @@
+# List of packages to install.
+# Each package is listed on a newline.
+# Blank lines and lines starting with `#` are not included.
+
+# Browsers
+firefox
+chromium-browser
+
+# Terminal and Editors
+# (vim-gnome enables "+p clipboard)
+ack-grep
+hexedit
+rxvt-unicode-256color
+silversearcher-ag
+vim
+vim-gnome
+xclip
+
+# Network and Servers
+filezilla
+openssh-server
+wireshark
+
+# Chat
+irssi
+xchat
+
+# Compression
+p7zip-full
+unrar
+unzip
+zip
+
+# Video
+# (Youtube-dl needs regular update, which it manages itself.)
+vlc
+youtube-dl
+
+# Python
+python-pip
+
+
+# Window Manager
+# (Feh is awesome wallpaper manager)
+awesome
+awesome-extras
+feh
+luasocket
+xlockmore
+
+# Design Tools, Images, Fonts
+gcolor2
+gimp
+ttf-mscorefonts-installer
+
