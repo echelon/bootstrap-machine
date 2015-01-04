@@ -39,7 +39,6 @@ youtube-dl
 # Python
 python-pip
 
-
 # Window Manager
 # (Feh is awesome wallpaper manager)
 awesome
@@ -52,4 +51,7 @@ xlockmore
 gcolor2
 gimp
 ttf-mscorefonts-installer
+
+# Misc
+festival
 
