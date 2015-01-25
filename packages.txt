@@ -12,11 +12,13 @@ ack-grep
 hexedit
 rxvt-unicode-256color
 silversearcher-ag
+tmux
 vim
 vim-gnome
 xclip
 
 # Network and Servers
+curl
 filezilla
 openssh-server
 wireshark
