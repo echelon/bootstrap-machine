@@ -2,6 +2,9 @@
 # Each package is listed on a newline.
 # Blank lines and lines starting with `#` are not included.
 
+# Git is probably already installed by this point.
+git
+
 # Browsers
 firefox
 chromium-browser
@@ -35,6 +38,7 @@ zip
 
 # Video
 # (Youtube-dl needs regular update, which it manages itself.)
+ffmpeg
 vlc
 youtube-dl
 
