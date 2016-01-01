@@ -36,6 +36,10 @@ unrar
 unzip
 zip
 
+# Audio
+audacity
+sox
+
 # Video
 # (Youtube-dl needs regular update, which it manages itself.)
 ffmpeg
