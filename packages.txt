@@ -46,8 +46,9 @@ ffmpeg
 vlc
 youtube-dl
 
-# Python
+# Python, Ruby
 python-pip
+ruby
 
 # Window Manager
 # (Feh is awesome wallpaper manager)
