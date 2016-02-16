@@ -63,6 +63,10 @@ gcolor2
 gimp
 ttf-mscorefonts-installer
 
+# Filesystem / System management
+gparted
+dcfldd
+
 # Misc
 festival
 
