@@ -47,6 +47,7 @@ vlc
 youtube-dl
 
 # Python, Ruby
+ipython
 python-pip
 ruby
 
