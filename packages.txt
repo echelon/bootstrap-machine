@@ -49,6 +49,8 @@ youtube-dl
 # Python, Ruby
 ipython
 python-pip
+python3-numpy
+python3-pip
 ruby
 
 # Window Manager
