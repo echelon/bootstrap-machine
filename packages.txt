@@ -70,6 +70,9 @@ ttf-mscorefonts-installer
 gparted
 dcfldd
 
+# Ubuntu tools
+unity-tweak-tool
+
 # Misc
 festival
 
