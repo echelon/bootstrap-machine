@@ -48,6 +48,7 @@ youtube-dl
 
 # Python, Ruby
 ipython
+python-opencv
 python-pip
 python3-numpy
 python3-pip
@@ -72,6 +73,7 @@ dcfldd
 
 # Ubuntu tools
 unity-tweak-tool
+dconf-tools
 
 # Misc
 festival
