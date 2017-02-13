@@ -58,6 +58,7 @@ ruby
 # (Feh is awesome wallpaper manager)
 awesome
 awesome-extras
+compizconfig-settings-manager
 feh
 luasocket
 xlockmore
