@@ -54,6 +54,7 @@ python3-numpy
 python3-pip
 ruby
 ruby-dev
+virtualenv
 
 # Window Manager
 # (Feh is awesome wallpaper manager)
