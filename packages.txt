@@ -11,14 +11,17 @@ chromium-browser
 
 # Terminal and Editors
 # (vim-gnome enables "+p clipboard)
-ack-grep
 hexedit
 rxvt-unicode-256color
-silversearcher-ag
 tmux
 vim
 vim-gnome
 xclip
+
+# Searching utilities
+#ripgrep # not yet available
+ack-grep
+silversearcher-ag
 
 # Network and Servers
 curl
@@ -58,12 +61,12 @@ virtualenv
 
 # Window Manager
 # (Feh is awesome wallpaper manager)
-awesome
-awesome-extras
+#awesome
+#awesome-extras
+#feh
+#luasocket
+#xlockmore
 compizconfig-settings-manager
-feh
-luasocket
-xlockmore
 
 # Design Tools, Images, Fonts
 gcolor2
