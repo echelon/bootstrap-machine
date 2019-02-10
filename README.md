@@ -9,6 +9,14 @@ just does Ubuntu, but I might add Arch support soon.
 The aim is to be idempotent, so that it could theoretically be run even on
 older installations.
 
+Installation
+------------
+Git should probably be installed and configured first,
+
+1. `sudo apt-get install git`
+2. [Generate SSH keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+2. [Add SSH keys to Github](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+
 Features
 --------
 - Installs packages in `packages.txt`.
