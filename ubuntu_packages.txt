@@ -27,6 +27,8 @@ silversearcher-ag
 # Network and Servers
 curl
 filezilla
+# ifconfig, etc.
+net-tools
 openssh-server
 wireshark
 
