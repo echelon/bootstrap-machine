@@ -25,10 +25,11 @@ ack-grep
 silversearcher-ag
 
 # Network and Servers
+# ifconfig, etc.
 curl
 filezilla
-# ifconfig, etc.
 net-tools
+nmap
 openssh-server
 wireshark
 
