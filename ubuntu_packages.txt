@@ -6,36 +6,28 @@
 git
 
 # Browsers
-firefox
-chromium-browser
+# firefox # NB(2022.10.09): Use snap
+# chromium-browser # NB(2022.10.09): Use snap
 
 # Terminal and Editors
 # (vim-gnome enables "+p clipboard)
 hexedit
 htop
-rxvt-unicode-256color
 tmux
 vim
-vim-gnome
 xclip
 
 # Searching utilities
-#ripgrep # not yet available
-ack-grep
-silversearcher-ag
+ripgrep
 
 # Network and Servers
 # ifconfig, etc.
 curl
-filezilla
+# filezilla # NB(2022.10.09): Use snap
 net-tools
 nmap
 openssh-server
-wireshark
-
-# Chat
-irssi
-xchat
+# wireshark # NB(2022.10.09): Use snap
 
 # Compression
 p7zip-full
@@ -54,32 +46,18 @@ vlc
 youtube-dl
 
 # Python, Ruby
-ipython
-python-opencv
 python-pip
-python3-numpy
-python3-pip
-python3-venv
 ruby
 ruby-dev
-virtualenv
 
 # Window Manager
-# (Feh is awesome wallpaper manager)
-#awesome
-#awesome-extras
-#feh
-#luasocket
-#xlockmore
 compizconfig-settings-manager
-gnome-tweak-tool
 xscreensaver
 xscreensaver-data-extra
 xscreensaver-gl-extra
 
 # Design Tools, Images, Fonts
-gcolor2
-gimp
+# gimp # NB(2022.10.09): Use snap
 ttf-mscorefonts-installer
 
 # Filesystem / System management
@@ -88,7 +66,6 @@ dcfldd
 
 # Ubuntu tools
 unity-tweak-tool
-dconf-tools
 
 # Misc
 festival
