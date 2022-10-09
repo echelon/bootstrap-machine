@@ -15,7 +15,12 @@ Git should probably be installed and configured first,
 
 1. `sudo apt-get install git`
 2. [Generate SSH keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
-2. [Add SSH keys to Github](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+   ```bash
+   ssh-keygen -t ed25519 -C "echelon@gmail.com"
+   ```
+
+3. [Add SSH keys to Github](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+   which as of this writing lives under User > Settings > SSH & GPG Keys
 
 Features
 --------

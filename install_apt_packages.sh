@@ -10,7 +10,7 @@
 #   join , "${FOO[@]}" #a,b,c
 function join { local IFS="$1"; shift; echo "$*"; }
 
-declare -r PACKAGE_FILE='ubuntu_packages.txt'
+declare -r APT_PACKAGE_FILE='ubuntu_apt_packages.txt'
 
 declare -a CANDIDATE_PACKAGES=()
 declare -a INVALID_PACKAGES=()
@@ -31,7 +31,7 @@ function read_packages() {
     else
       packages+=("$line")
     fi
-  done < ${PACKAGE_FILE}
+  done < ${APT_PACKAGE_FILE}
 
   # Sort packages; store in global.
   readarray -t CANDIDATE_PACKAGES < \

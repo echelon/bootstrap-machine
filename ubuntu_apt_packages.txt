@@ -5,10 +5,6 @@
 # Git is probably already installed by this point.
 git
 
-# Browsers
-# firefox # NB(2022.10.09): Use snap
-# chromium-browser # NB(2022.10.09): Use snap
-
 # Terminal and Editors
 # (vim-gnome enables "+p clipboard)
 hexedit
