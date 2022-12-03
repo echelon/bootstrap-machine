@@ -20,7 +20,7 @@ Git should probably be installed and configured first,
    ```
 
 3. [Add SSH keys to Github](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
-   which as of this writing lives under User > Settings > SSH & GPG Keys
+   which as of this writing lives under ***User** > **Settings** > **SSH & GPG Keys***
 
 Features
 --------
