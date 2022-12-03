@@ -18,12 +18,12 @@ ripgrep
 
 # Network and Servers
 # ifconfig, etc.
-curl
 # filezilla # NB(2022.10.09): Use snap
+# wireshark # NB(2022.10.09): Use snap
+curl
 net-tools
 nmap
 openssh-server
-# wireshark # NB(2022.10.09): Use snap
 
 # Compression
 p7zip-full

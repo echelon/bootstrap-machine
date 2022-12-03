@@ -3,18 +3,37 @@
 
 set -euxo pipefail
 
-echo "Cloning and installing general bash configs..."
-git clone git@github.com:dotfile/bash.git ~/.config/bash
+bash_configs=~/.config/bash
 
-ln -s ~/.config/bash/tmux.conf ~/.tmux.conf
-ln -s ~/.config/bash/inputrc ~/.inputrc
-ln -s ~/.config/bash/logout ~/.bash_logout
+if [[ ! -d $bash_configs ]]; then 
+  echo "Cloning and installing general bash configs..."
+  git clone git@github.com:dotfile/bash.git $bash_configs
+fi
+
+link_file() {
+  config_file=$1
+  symlink_name=$2
+
+	if [[ -f $symlink_name ]]; then 
+    timestamp=$(date +%s)
+		cp $symlink_name "${symlink_name}.${timestamp}.backup"
+	fi
+
+	ln -sf "${config_file}" "${symlink_name}"
+}
+
+link_file ~/.config/bash/tmux.conf ~/.tmux.conf
+link_file ~/.config/bash/inputrc ~/.inputrc
+link_file ~/.config/bash/logout ~/.bash_logout
 
 echo ">> Remember to source .config/bash/bash/main from ~/.bashrc"
 
-echo "Cloning and installing general bash aliases..."
-git clone git@github.com:dotfile/bash_aliases.git ~/.config/bash_aliases
+bash_aliases_configs=~/.config/bash_aliases
+
+if [[ ! -d $bash_aliases_configs ]]; then 
+  echo "Cloning and installing general bash aliases..."
+  git clone git@github.com:dotfile/bash_aliases.git $bash_aliases_configs
+fi
 
 /bin/bash ~/.config/bash_aliases/install.sh
-
 
