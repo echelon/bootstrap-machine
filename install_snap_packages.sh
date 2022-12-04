@@ -67,7 +67,7 @@ function install_packages() {
   declare -r install_packages=$(join " " ${VALID_PACKAGES[@]})
 	for package in "${VALID_PACKAGES[@]}"
 	do
-		snap install "$package"
+		snap install "$package" --classic
 	done
 }
 
