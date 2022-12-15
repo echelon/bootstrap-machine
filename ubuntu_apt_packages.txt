@@ -60,7 +60,8 @@ ttf-mscorefonts-installer
 gparted
 dcfldd
 
-# Ubuntu tools
+# Ubuntu tools (gnome-tweaks for trackpad, topbar, etc. configs)
+gnome-tweaks
 unity-tweak-tool
 
 # Misc
