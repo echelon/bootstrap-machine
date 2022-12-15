@@ -35,5 +35,10 @@ if [[ ! -d $bash_aliases_configs ]]; then
   git clone git@github.com:dotfile/bash_aliases.git $bash_aliases_configs
 fi
 
+echo "Updating general bash aliases..."
+pushd "$bash_aliases_configs"
+git pull
+popd
+
 /bin/bash ~/.config/bash_aliases/install.sh
 
