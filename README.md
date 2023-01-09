@@ -9,8 +9,8 @@ just does Ubuntu, but I might add Arch support soon.
 The aim is to be idempotent, so that it could theoretically be run even on
 older installations.
 
-Installation
-------------
+Linux Installation
+------------------
 
 1. [Generate SSH keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
    ```bash
@@ -27,6 +27,15 @@ Installation
 5. `git clone git@github.com:echelon/bootstrap-machine.git`
 
 6. Run the desired install scripts. 
+
+Mac Installation
+----------------
+
+* [ ] Install Chrome
+* [ ] Install iTerm
+* [ ] Install Homebrew
+
+...
 
 Features
 --------
