@@ -11,10 +11,10 @@ clion
 code
 
 # Multimedia
+# vlc - currently installed via apt
 audacity
 gimp
-vlc
 
 # Messengers
-discord
+# discord - discord tends to break; their updates don't work with Snap
 

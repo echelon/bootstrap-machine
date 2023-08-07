@@ -24,6 +24,7 @@ curl
 net-tools
 nmap
 openssh-server
+wget
 
 # Compression
 p7zip-full
@@ -37,20 +38,18 @@ sox
 
 # Video
 # (Youtube-dl needs regular update, which it manages itself.)
+# youtube-dl - this breaks so much that it's worth installing independently
 ffmpeg
 vlc
-youtube-dl
 
-# Python, Ruby
+# Python (bare minimum)
 python-pip
-ruby
-ruby-dev
 
-# Window Manager
+# Window Manager + Gnome + Ubuntu tools 
+# (gnome-tweaks for trackpad, topbar, etc. configs)
 compizconfig-settings-manager
-xscreensaver
-xscreensaver-data-extra
-xscreensaver-gl-extra
+gnome-tweaks
+unity-tweak-tool
 
 # Design Tools, Images, Fonts
 # gimp # NB(2022.10.09): Use snap
@@ -59,10 +58,6 @@ ttf-mscorefonts-installer
 # Filesystem / System management
 gparted
 dcfldd
-
-# Ubuntu tools (gnome-tweaks for trackpad, topbar, etc. configs)
-gnome-tweaks
-unity-tweak-tool
 
 # Misc
 festival
