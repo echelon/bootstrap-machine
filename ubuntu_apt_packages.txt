@@ -48,6 +48,7 @@ python-pip
 # Window Manager + Gnome + Ubuntu tools 
 # (gnome-tweaks for trackpad, topbar, etc. configs)
 compizconfig-settings-manager
+ffmpegthumbnailer
 gnome-tweaks
 unity-tweak-tool
 
