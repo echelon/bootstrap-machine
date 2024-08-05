@@ -7,7 +7,8 @@ chromium
 firefox
 
 # Editors
-clion
+# clion
+rustrover
 code
 
 # Multimedia
