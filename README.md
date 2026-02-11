@@ -42,6 +42,7 @@ Mac Installation
 * [ ] Install Firefox
 * [ ] Install Chrome
 * [ ] Install iTerm, Ghostty, etc.
+* [ ] Install Discord
 
 ### Mac Dev Tools Installation
 * [ ] Install Homebrew: https://brew.sh/
@@ -49,6 +50,8 @@ Mac Installation
 ### Settings
 * [ ] Hostname: change from default "My-Mac".
 * [ ] Trackpad -> Scroll -> Turn off Natural scrolling (an abomination)
+* [ ] Keyboard -> Key repeat rate, Delay until repeat
+* [ ] Screenshot.app -> Change screenshot save location ("Desktop" sucks)
 
 ...
 

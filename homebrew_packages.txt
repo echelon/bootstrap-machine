@@ -1,3 +1,14 @@
 # Terminal tools
 bat
 htop
+ripgrep
+tmux
+
+# Video tools
+ffmpeg
+vlc
+yt-dlp
+
+# Build tools
+cmake
+
