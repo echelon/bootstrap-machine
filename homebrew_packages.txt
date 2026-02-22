@@ -1,0 +1,19 @@
+# Terminal tools
+bat
+htop
+ripgrep
+tmux
+wget
+
+# Video tools
+ffmpeg
+vlc
+yt-dlp
+
+# Build tools
+cmake
+
+# Dev/Devops
+kubectl
+mysql
+
