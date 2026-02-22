@@ -39,10 +39,16 @@ Mac Installation
 ----------------
 
 ### Core Apps
-* [ ] Install Firefox
-* [ ] Install Chrome
-* [ ] Install iTerm, Ghostty, etc.
-* [ ] Install Discord
+* [ ] Firefox
+* [ ] Chrome
+* [ ] Discord
+* [ ] Obsidian
+* [ ] SizeUp
+
+### Dev Apps
+* [ ] iTerm, Ghostty, etc.
+* [ ] RustRover
+* [ ] Postman 
 
 ### Mac Dev Tools Installation
 * [ ] Install Homebrew: https://brew.sh/
@@ -52,6 +58,8 @@ Mac Installation
 * [ ] Trackpad -> Scroll -> Turn off Natural scrolling (an abomination)
 * [ ] Keyboard -> Key repeat rate, Delay until repeat
 * [ ] Screenshot.app -> Change screenshot save location ("Desktop" sucks)
+* [ ] Desktop & Dock -> Automatically hide and show the Dock (switch on)
+* [ ] Desktop & Dock -> Automatically rearrange Spaces based on most recent use (switch off)
 
 ...
 

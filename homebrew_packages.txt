@@ -3,6 +3,7 @@ bat
 htop
 ripgrep
 tmux
+wget
 
 # Video tools
 ffmpeg
@@ -11,4 +12,8 @@ yt-dlp
 
 # Build tools
 cmake
+
+# Dev/Devops
+kubectl
+mysql
 
