@@ -57,9 +57,10 @@ Mac Installation
 * [ ] Hostname: change from default "My-Mac".
 * [ ] Trackpad -> Scroll -> Turn off Natural scrolling (an abomination)
 * [ ] Keyboard -> Key repeat rate, Delay until repeat
-* [ ] Screenshot.app -> Change screenshot save location ("Desktop" sucks)
+* [ ] Screenshot.app (need to open) -> Change screenshot save location ("Desktop" sucks)
 * [ ] Desktop & Dock -> Automatically hide and show the Dock (switch on)
 * [ ] Desktop & Dock -> Automatically rearrange Spaces based on most recent use (switch off)
+* [ ] Desktop & Dock -> Click wallpaper to reveal desktop (switch to "Only in Stage Manager")
 
 ...
 
